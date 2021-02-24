@@ -1,28 +1,28 @@
-
-*{
+* {
   font-family: sans-serif;
 }
 
 /*Texto fuentes*/
 
-
-h1{
-  font-family: 'Cookie', cursive;
+h1 {
+  font-family: "Cookie", cursive;
   font-size: 50px;
 }
-#notCount, #forgetPassword, #face {
+#notCount,
+#forgetPassword,
+#face {
   font-size: 13px;
 }
-#face{
-  padding-top:10px;
+#face {
+  padding-top: 10px;
   font-weight: bold;
   color: rgb(59, 59, 163);
 }
 
-#downloadApp{
+#downloadApp {
   font-size: 14px;
 }
-::placeholder{
+::placeholder {
   font-size: 12px;
   text-align: left;
 }
@@ -53,11 +53,11 @@ h1{
   align-items: center;
 }
 
-.imgRs{
+.imgRs {
   width: 150px;
 }
 
-#mainBlock{
+#mainBlock {
   padding-top: 30px;
 }
 
@@ -66,7 +66,7 @@ h1{
 }
 
 /*Bloques del login*/
-.borde{
+.borde {
   border: 1px;
   border-style: solid;
   border-color: rgb(196, 190, 190);
@@ -89,8 +89,8 @@ h1{
 .separador {
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom:solid 2px rgb(190, 190, 190);
-  width:92px;
+  border-bottom: solid 2px rgb(190, 190, 190);
+  width: 92px;
 }
 #letraO {
   color: rgb(196, 190, 190);
@@ -100,9 +100,8 @@ h1{
 }
 /*Formulario*/
 
-
-input{
-  align-items:flex-start;
+input {
+  align-items: flex-start;
   padding-top: 11px;
   padding-right: 50px;
   padding-left: 50px;
@@ -134,18 +133,17 @@ input{
 }
 
 /*Footer*/
-#footer{
- align-content: stretch;  
- padding-top: 60px;
- 
+#footer {
+  align-content: stretch;
+  padding-top: 60px;
 }
-#footer div{
+#footer div {
   padding-left: 10px;
 }
 
 /*Mediaqueries*/
 @media screen and (max-width: 600px) {
-  #iphone { 
-    display:none; 
+  #iphone {
+    display: none;
   }
 }
