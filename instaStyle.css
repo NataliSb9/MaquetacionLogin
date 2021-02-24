@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.column {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+}
