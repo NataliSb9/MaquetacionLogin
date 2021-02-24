@@ -8,9 +8,9 @@
   text-align: center;
   flex-wrap: wrap;
 }
-
 .row2 {
   display: flex;
+  flex-flow: row;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -18,9 +18,19 @@
 }
 .row3 {
   display: flex;
+  flex-flow: row;
   justify-content: center;
   align-content: flex-start;
   align-items: center;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+.row4 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   text-align: justify;
   flex-wrap: wrap;
 }
@@ -30,7 +40,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-wrap: wrap;
 }
 .column2 {
   display: flex;
@@ -120,7 +129,9 @@ nav {
 #fila2 img {
   width: 300px;
   height: 300px;
-  padding-left: 12px; 
+  padding-left: 12px;
+  padding-bottom: 12px;
+ 
 }
 
 /*Texto y fuente*/
