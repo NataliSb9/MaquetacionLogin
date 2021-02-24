@@ -3,43 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="instaStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="instagram.png"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Instagram</title>
 </head>
 <body>
-    <main>
-        <div class = "row">
-            <img src="imagenes/movil.png" alt="">
-        </div>
-        <div class=>
-            <form class = "column "action="">
-                <input type="email" placeholder="Teléfono,usuario o correo electrónic">
-                <input type="password" name="" id=""placeholder="contaseña">
-                <button>Iniciar sesión</button>
-                <div class="">
-                    <div></div>
-                    <div>o</div>
-                    <div></div>
-                </div>
-                <button class = "" type ="button">
-                    <span>Iniciar sesión con Facebook</span>
-                </button>
-                <p>¿Has olvidado la contraseña?</p>
-            </form>
-        </div>
-
-        <div class ="column" id ="notCount">
-            <p>¿No tienes cuenta? <a href="">Regístrate</a> </p>
-        </div>
-
-        <div class="column" id="downloadApp">
-            <p>Descárgate la aplicación</p>
-            <div id="imgRss">
-                <img src="imagenes/appleStore.png" alt="acceso appleStore">
-                <img src="imagenes/GooglePlay.png" alt="acceso GooglePlay">
+    <div id="mainBlock" class = "row">
+        <div>
+            <div >
+                <img id ="iphone" src="imagenes/movil.png" alt="">
             </div>
         </div>
 
-    </main>
+        <div id = "formulario" class="column">
+            <div class= "borde">
+                <h1 class ="column" id ="title">Instagram</h1>
+                <form class = "column "action="">
+                    <input type="email" placeholder="Teléfono,usuario o correo electrónic">
+                    <input type="password" name="" id="password"placeholder="contraseña">
+                    <button type="button" id="login"disabled>Iniciar sesión</button>
+                    <div class = "row">
+                        <div class ="separador"></div>
+                        <div id= "letraO"> o </div>
+                        <div class ="separador"></div>
+                    </div>
+                    
+                    <span id="face">Iniciar sesión con Facebook</span>
+                    <p id="forgetPassword">¿Has olvidado la contraseña?</p>
+                
+                </form>
+            </div>
+
+            <div id="borde1" >
+                <div>
+                    <span id= "notCount">¿No tienes cuenta? <a href="">Regístrate</a> </span>
+                </div>
+            </div>
+
+            <div class="" id="downloadApp">
+                <p>Descárgate la aplicación</p>
+                <div >
+                    <img class="imgRs"src="imagenes/appleStore.png" alt="acceso appleStore">
+                    <img class="imgRs" src="imagenes/GooglePlay.png" alt="acceso GooglePlay">
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class ="row" id= "footer">
         <div>Información</div>
         <div>Blog</div>

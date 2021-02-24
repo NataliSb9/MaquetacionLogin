@@ -1,3 +1,41 @@
+
+*{
+  font-family: sans-serif;
+}
+
+/*Texto fuentes*/
+
+
+h1{
+  font-family: 'Cookie', cursive;
+  font-size: 50px;
+}
+#notCount, #forgetPassword, #face {
+  font-size: 13px;
+}
+#face{
+  padding-top:10px;
+  font-weight: bold;
+  color: rgb(59, 59, 163);
+}
+
+#downloadApp{
+  font-size: 14px;
+}
+::placeholder{
+  font-size: 12px;
+  text-align: left;
+}
+
+/*Colocacion*/
+.column {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
 .row {
   display: flex;
   justify-content: center;
@@ -5,15 +43,109 @@
   text-align: center;
   flex-wrap: wrap;
 }
-.column {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
+
+#iphone {
+  width: 360px;
+  padding-right: 20px;
 }
 
-img {
-  width: 200px;
+#notCount {
+  align-items: center;
+}
+
+.imgRs{
+  width: 150px;
+}
+
+#mainBlock{
+  padding-top: 30px;
+}
+
+#formulario {
+  margin-top: 20px;
+}
+
+/*Bloques del login*/
+.borde{
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(196, 190, 190);
+  margin-bottom: 15px;
+  padding-right: 42px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+}
+#borde1 {
+  margin-top: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(196, 190, 190);
+  padding-top: 13px;
+  padding-right: 83px;
+  padding-bottom: 13px;
+  padding-left: 83px;
+}
+
+.separador {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom:solid 2px rgb(190, 190, 190);
+  width:92px;
+}
+#letraO {
+  color: rgb(196, 190, 190);
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/*Formulario*/
+
+
+input{
+  align-items:flex-start;
+  padding-top: 11px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 11px;
+  border: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: rgb(196, 190, 190);
+}
+
+#password {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+#login {
+  background-color: rgb(29, 116, 230);
+  cursor: pointer;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 259px;
+  height: 32px;
+  font-size: 13.3px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+/*Footer*/
+#footer{
+ align-content: stretch;  
+ padding-top: 60px;
+ 
+}
+#footer div{
+  padding-left: 10px;
+}
+
+/*Mediaqueries*/
+@media screen and (max-width: 600px) {
+  #iphone { 
+    display:none; 
+  }
 }
