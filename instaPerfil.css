@@ -34,6 +34,14 @@
   text-align: justify;
   flex-wrap: wrap;
 }
+.row5 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
 .column1 {
   display: flex;
   flex-flow: column;
@@ -70,6 +78,7 @@ nav {
 #busqueda {
   width: 215px;
   height: 28px;
+  margin-left: 75px;
   border: solid 1px rgba(219, 219, 219, 0.9);
   border-radius: 3px;
   text-align: center;
@@ -81,6 +90,11 @@ nav {
   border-radius: 9999px;
   width: 30px;
   height: 30px;
+}
+
+#icons i {
+  padding-right: 35px;
+  margin-left:10px;
 }
 
 /*Description*/
@@ -95,6 +109,7 @@ nav {
   border-radius: 9999px;
   width: 130px;
   height: 130px;
+  transition: transform .2s;
 }
 
 #imgContent {
@@ -106,17 +121,55 @@ nav {
   align-items: center;
   justify-content: first baseline;
 }
+#vulpes,#followersInfo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+#vulpes {
+  padding-left: 5px;
+  padding-top: 12px;
+}
+#vulpes,#followersInfo span{
+  font-weight: 700;
+}
+#user{
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;  
+  font-weight: 200;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 13.3px;
+  border-radius: 2px;
+  border: solid 1px rgba(219, 219, 219, 0.9);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  color: rgb(12, 11, 11);
+}
+
+#publicaciones, #followers , #follow {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 /*Separador*/
 #separador {
-  margin-right:480px;
   margin-bottom: 25px;
-  margin-left: 480px;
   border-top: 1.5px solid rgba(150, 149, 149, 0.3);
 }
 #separador span {
   margin-top: 25px;
   padding-left: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(168, 168, 168);
 }
 /*Galeria*/
 
@@ -136,4 +189,14 @@ nav {
 
 /*Texto y fuente*/
 
-/*Imagenes*/
+/*Hover img*/
+
+#fotoPerfil:hover{
+  transform: scale(1.5)
+}
+
+/*Mediaqueries*/
+@media screen and (max-width: 600px) {
+  # {
+    display: none;
+  }
